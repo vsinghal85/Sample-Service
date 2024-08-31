@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from AWS Fargate!";
+        return "Hello from AWS Fargate! We have code pipeline successfully setup";
     }
 }
